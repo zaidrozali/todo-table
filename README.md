@@ -104,12 +104,6 @@ This is a shadcn table component with server-side sorting, filtering, and pagina
    - **Use Data Table Hook**: In `./_components/tasks-table.tsx`, call `./hooks/useTasksTable.tsx` hook to handle server-side pagination, sorting, and filtering.
    - **Remove Tasks Table Provider**: Make sure to remove the provider from `./components/tasks-table-provider.tsx`. The provider is used to showcase some additional features like floating bar and advanced filters.
 
-## Codebase Overview
-
-Watch the codebase overview video on [YouTube]().
-
-Consider subscribing to `React With Utkarsh` [YouTube channel](https://www.youtube.com/@reactwithutkarsh) for more videos.
-
 ## How do I deploy this?
 
 Follow the deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
